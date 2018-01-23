@@ -7,9 +7,9 @@
 // @version 0.0.1
 // ==/UserScript==
 
-var elements = document.querySelectorAll('.article--sponsored');
-for(var i=0; i<elements.length; i++){
-	var e = elements[i]; 
-	var container = e.parentNode;
-    container.parentNode.removeChild(container);
-}
+var link = window.document.createElement('link');
+link.rel = 'stylesheet';
+link.type = 'text/css';
+link.href = 'data:text/css,' +
+            '.article--sponsored { display: none;';
+document.getElementsByTagName("HEAD")[0].appendChild(link);
