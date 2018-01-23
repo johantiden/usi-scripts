@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name           Omni Obvious Sponsors
+// @name           Omni - Hide Sponsors
 // @namespace      johantiden
-// @description    Makes sponsored content more obvious but changing the style.
+// @description    Hides sponsored content.
 // @include        http://omni.se*
 // @include        https://omni.se*
 // @version 0.0.1
